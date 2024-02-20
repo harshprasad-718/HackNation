@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Feedback Form</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="29a9def2-3af0-453a-9cda-067ec1ba1852">
+      
+          <label for="name">Name:</label><input type="text" name="name" required>
+          <label for="email">Email ID:</label><input type="email" name="email" required>
+          <label for="message">Feedback:</label><textarea name="message" required></textarea>
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+          <center><button type="submit">Submit Form</button></center>
+      
+      </form>
+</body>
+</html>

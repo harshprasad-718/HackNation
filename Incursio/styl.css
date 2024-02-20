@@ -1,0 +1,17 @@
+*{
+    background-color: #a8212e;
+}
+
+.rounded-square {
+    width: 334px;
+    height: 334px;
+    background-color: #ed9729;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #a8212e;
+    font-weight: bold;
+    font-size: 26px;
+}
